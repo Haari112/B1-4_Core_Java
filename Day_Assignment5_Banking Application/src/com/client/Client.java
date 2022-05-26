@@ -13,7 +13,7 @@ public class Client {
 		// TODO Auto-generated method stub
 		BankFactory obj=new MMBankFactory();
 		SavingAcc s=new MMSavingAcc(153, "Harish", 100000, true, 100);
-		CurrentAcc c=new MMCurrentAcc(152, "James", 10000.0f, 1000.0f);
+		CurrentAcc c=new MMCurrentAcc(152, "Gowda", 10000.0f, 1000.0f);
 		System.out.println("Saving Account: ");
 		s.withdraw(350.0f);
 		System.out.println();
